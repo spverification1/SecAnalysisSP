@@ -7,7 +7,7 @@ This repository contains the manuscript, references, figures, and supporting ana
 - references/ — bibliography
 - figures/ — images and diagrams
 - data/ — experimental results
-- code/ — analysis scripts
+- codes/ — analysis scripts
 
 ## Reproducibility
 The main results are derived from the experimental data in `data/` and the scripts in `code/`.
