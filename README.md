@@ -14,7 +14,7 @@ The repository was prepared to make external verification easier. In this versio
 - `face2_zmieniony.py`  
   Core implementation of the key-generation logic, including coordinate transformation, binary conversion, iterative processing, and export of generated keys.
 
-- `extract_key_from_faces.py`  
+- `extract_key_from_faces2.py`  
   Script for extracting facial landmark points from face images and generating a symmetric key from two input images.
 
 - `main.py`  
