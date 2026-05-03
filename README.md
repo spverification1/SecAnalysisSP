@@ -7,7 +7,7 @@ The repository was prepared to make external verification easier. In this versio
 ## Repository structure
 
 - `codes/` – Python scripts implementing the main stages of the experimental workflow.
-- `images/` – example face images used as input for verification and testing.
+- `images/` – example face images used as input for verification and testing. 
 
 ## Files in `codes/`
 
@@ -25,6 +25,12 @@ The repository was prepared to make external verification easier. In this versio
 
 - `image_mods.py`  
   Utility script for generating modified versions of input images (brightness change, blur, noise, rotation) in order to test the robustness of facial-feature extraction and the corresponding effect on key generation.
+
+## Images
+
+Most files in this directory are synthetic facial images generated with Midjourney.
+
+They are included to support simplified reproducibility and external verification of the proposed biometric key-generation workflow. Users may also add their own images and test the pipeline on additional inputs.
 
 ## Purpose of the repository
 
@@ -45,6 +51,17 @@ The purpose of this repository is not to provide a full production-ready applica
    - use `gen_key.py` to analyse entropy, diffusion, collision rate, and runtime,
    - use `image_mods.py` to create modified images for robustness testing.
 3. Inspect the generated CSV files and plots.
+
+## Example dependencies
+
+- Python 3.x
+- face_recognition
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- Pillow
+- opencv-python
 
 ## Reproducibility note
 
